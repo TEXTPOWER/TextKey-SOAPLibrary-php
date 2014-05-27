@@ -208,7 +208,9 @@ Sample Code
 
 We have included a folder called `apitests` in this repository with sample code for all current API calls. 
 
-We have also included sampe xml files to display what the incoming SOAP payloads should look like. You can test these out using CURL on the command line. For example:
+We have also included sample xml files to display what the incoming SOAP payloads should look like. You can test these out using CURL on the command line. 
+
+For example:
 
 ```
 curl -H "Content-Type: text/xml; charset=utf-8" -H "SOAPAction:" -d @doesRegistrationUserIdExist.xml -X POST https://secure.textkey.com/ws/textkey.asmx
