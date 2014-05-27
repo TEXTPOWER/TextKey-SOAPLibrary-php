@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" >
+ <soap:Body>
+  <registerTextKeyUserCSA_Key xmlns="https://secure.textkey.com/services/">
+   <apiKey>PUT API KEY HERE</apiKey>
+   <command>Query</command>
+   <cellNumber>850410576</cellNumber>
+   <ownerFName>
+   </ownerFName>
+   <ownerLName>
+   </ownerLName>
+   <suppl1>
+   </suppl1>
+   <suppl2>
+   </suppl2>
+   <userID>
+   </userID>
+   <isHashed>true</isHashed>
+   <TextKeyMode>TextKeyOnly</TextKeyMode>
+   <ReceiveMode>AnyCode</ReceiveMode>
+   <pinCode>
+   </pinCode>
+   <distressPinCode>
+   </distressPinCode>
+   <ownerGender>M</ownerGender>
+   <q1>
+   </q1>
+   <a1>
+   </a1>
+   <q2>
+   </q2>
+   <a2>
+   </a2>
+   <q3>
+   </q3>
+   <a3>
+   </a3>
+  </registerTextKeyUserCSA_Key>
+ </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" >
+ <soap:Body>
+  <doesRegistrationCellNumberExist_Key xmlns="https://secure.textkey.com/services/">
+   <apiKey>PUT API KEY HERE</apiKey>
+   <cellNumber>1231231234</cellNumber>
+  </doesRegistrationCellNumberExist_Key>
+ </soap:Body>
+</soap:Envelope>

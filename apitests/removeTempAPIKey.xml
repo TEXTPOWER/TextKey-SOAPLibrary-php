@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" >
+ <soap:Body>
+  <removeTempAPIKey_Key xmlns="https://secure.textkey.com/services/">
+   <apiKey>E6E22018-2D1B-4302-A12D-5660B0EE27BD</apiKey>
+   <minutesDuration>2</minutesDuration>
+  </removeTempAPIKey_Key>
+ </soap:Body>
+</soap:Envelope>

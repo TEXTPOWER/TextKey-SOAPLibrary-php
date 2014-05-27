@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" >
+ <soap:Body>
+  <getTextKeyRegistration_Key xmlns="https://secure.textkey.com/services/">
+   <apiKey>PUT API KEY HERE</apiKey>
+   <retrieveBy>ByCellNumber</retrieveBy>
+   <cellNumber>1231231234</cellNumber>
+   <suppl1>
+   </suppl1>
+   <suppl2>
+   </suppl2>
+  </getTextKeyRegistration_Key>
+ </soap:Body>
+</soap:Envelope>

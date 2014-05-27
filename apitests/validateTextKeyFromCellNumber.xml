@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" >
+ <soap:Body>
+  <validateTextKeyFromCellNumber_Key xmlns="https://secure.textkey.com/services/">
+   <apiKey>PUT API KEY HERE</apiKey>
+   <textKey>4898697</textKey>
+   <CellNumber>1231231234</CellNumber>
+   <validationCode>537ED</validationCode>
+  </validateTextKeyFromCellNumber_Key>
+ </soap:Body>
+</soap:Envelope>

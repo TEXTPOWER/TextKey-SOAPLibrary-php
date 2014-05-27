@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" >
+ <soap:Body>
+  <getTempAPIKey_Key xmlns="https://secure.textkey.com/services/">
+   <apiKey>PUT API KEY HERE</apiKey>
+   <minutesDuration>2</minutesDuration>
+  </getTempAPIKey_Key>
+ </soap:Body>
+</soap:Envelope>
