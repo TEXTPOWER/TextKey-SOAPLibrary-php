@@ -23,11 +23,20 @@ echo "<HR>";
 
 // Handle the results
 if ($textkey_result->errorDescr == "") {
-    $tkResultsArr = get_object_vars($textkey_result);
-  	$results = "";
-  foreach($tkResultsArr as $key => $value) { 
-        $results .= $key . ': ' . $value . "<BR />";
-    } 			
+	// Handle the payload
+	$tkResultsArr = get_object_vars($textkey_result);
+	$results = "";
+	foreach($tkResultsArr as $key => $value) { 
+		if (is_array($value)) {
+			$results .= $key . ': ' . print_r($value, true) . "<BR />";
+		}
+		else if (is_object($value)) {
+			$results .= $key . ': ' . print_r($value, true);
+		}
+		else {
+			$results .= $key . ': ' . $value . "<BR />";
+		}
+	} 			
 }
 else {
     $results = 'Error: ' . $textkey_result->errorDescr . "<BR />";
